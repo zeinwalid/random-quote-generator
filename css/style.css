@@ -1,0 +1,27 @@
+.quote-box {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    /* height: 200px; */
+    width: 80%;
+}
+
+.main {
+    width: 90%;
+    border: 1px solid black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.page-loader {
+    width: 100%;
+    z-index: 999;
+    transition: 1s;
+}
+
+.pre-loader {
+    width: 100%;
+    height: 100vh;
+}
